@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+/* verde: #545928
+   creme: #F2E5BD
+   marrom claro: #734A3C
+   marrom escuro: #59281D
+   branco:  #F2F2F2 **/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'M PLUS 2';
+}
+
+.first{
+    display: flex;
+    margin: 30px;
+    gap:20px 300px;
+}
+
+.logo{
+    width: 260px;
+    margin-left: 460px;   
+}
+
+.icon{
+    display: flex;
+    gap: 10px 60px;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+}
+
+a{
+    color: #545928 ;
+}
+
+.cafe{
+    margin-left: 20px;
+    text-decoration: none;
+    color:black ;
+    width: 200px;
+    text-align: center;
+    border-radius: 5px; 
+}
+
+.cafe:hover{
+    background-color: #545928;
+    transition: 0.7s;
+    color: #F2E5BD;
+}
+ 
+
