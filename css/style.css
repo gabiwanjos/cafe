@@ -10,55 +10,179 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'M PLUS 2';
+    font-family: 'Barlow Condensed', sans-serif;
 }
 
-.first{
+html{
+    height: 500vh;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.flex{
     display: flex;
-    margin: 30px;
-    gap:20px 300px;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+
+header{
+    width: 100%;
+    padding: 10px 3%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+header.rolagem{
+    background-color:white;
+    padding: 5px 3%;
+}
+
+header.rolagem a{
+    color: black;
+
+}
+
+header.rolagem .logo{
+    display: none;
+}
+
+header.rolagem .black{
+    display: flex;
 }
 
 .logo{
-    width: 260px;
-    margin-left: 460px;   
+    width: 200px;
+    height: 130px;
+}
+
+.black{
+    display: none;
+}
+
+header ul{
+    list-style-type: none;
+}
+
+header ul li{
+    display: inline-block;
+    margin: 0px 40px;
+}
+
+header ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
 }
 
 .icon{
-    display: flex;
-    gap: 10px 60px;
-    align-items: center;
+    color: white;
 }
 
-nav{
+.banner{
+    background-image: url(../image/fazendacafé.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.banner h1{
+    font-size: 4rem;
+    color: white;
+    font-weight: 500;
+    margin-top: 200px;
+    margin-right: 70px;
+}
+
+.box{
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    width: 1200px;
+    height: 470px;
+    margin: auto;
 }
 
-.menu{
-    display: flex;
-    list-style: none;
-}
-
-a{
-    color: #545928 ;
-}
-
-.cafe{
-    margin-left: 20px;
-    text-decoration: none;
-    color:black ;
+.item{
     width: 200px;
+    height: 400px;
+    margin-left: 10px;    
     text-align: center;
-    border-radius: 5px; 
+    background: url(../image/grão.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    transition: width 0.5s ;
 }
 
-.cafe:hover{
-    background-color: #545928;
-    transition: 0.7s;
-    color: #F2E5BD;
+.item:nth-child(2){
+    background: url(../image/pó.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
- 
 
+.item:nth-child(3){
+    background: url(../image/drips.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.item:nth-child(4){
+    background: url(../image/cápsula.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.item:nth-child(5){
+    background: url(../image/chocolate.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.item:nth-child(6){
+    background: url(../image/kit.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.item:nth-child(7){
+    background: url(../image/assinatura.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.item h3{
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    opacity: 0;
+    transition: bottom 0.5s, opacity 0.5s;
+}
+
+.item:hover{
+    width: 350px;
+    cursor: pointer;
+
+}
+
+.item:hover h3{
+    opacity: 1;
+    bottom: 25px;
+}

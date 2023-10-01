@@ -1,0 +1,19 @@
+<nav>
+        <ul class="menu">
+            <a href="#" class="cafe">
+                <li>Café em grão</li>
+            </a>
+            <a href="#" class="cafe">
+                <li>Café em pó</li>
+            </a>
+            <a href="#" class="cafe">
+                <li>Chocolate com grão</li>
+            </a>
+            <a href="#" class="cafe">
+                <li>Dips e cápsulas</li>
+            </a>
+            <a href="#" class="cafe">
+                <li>Grandes volumes</li>
+            </a>
+        </ul>
+    </nav>
