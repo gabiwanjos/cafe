@@ -14,7 +14,7 @@
 }
 
 html{
-    height: 500vh;
+    height: 390vh;
 }
 
 .container{
@@ -103,6 +103,10 @@ header ul li a{
     font-weight: 500;
     margin-top: 200px;
     margin-right: 70px;
+}
+
+.fotos{
+    margin-top: 40px;
 }
 
 .box{
@@ -217,7 +221,7 @@ button:hover{
 .meio{
     display: flex;
     justify-content: space-around;
-    margin: auto;
+    margin-bottom: 20px;
     color: black;
 }
 
@@ -250,44 +254,91 @@ i{
     width: 220px;
 }
 
-.jose{
-    width: 270px;
-
-}
-
-.title{
-    text-align: center;
-    margin: auto;
-    font-size: 32px;
-    margin-bottom: 40px;
+.divisor{
+    background-image: url(../image/mike-kenneally-TD4DBagg2wE-unsplash.jpg);
+    width: 100%;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.6;
 }
 
 .history{
+    margin-top: 40px;
+    font-weight: 300;
+    font-size: 35px;
+}
+
+.bloc2{
     display: flex;
-    margin: auto;
-    align-items: center;
+    gap: 15px;
     justify-content: center;
-    gap: 6px;
+    margin-bottom: 60px;
 }
-
-.text1{
-    width: 500px;
+.josé{
+    color: black;
+    margin-top: 30px;
+    width: 600px;
     text-align: justify;
     text-indent: 50px;
-    font-size: 15px;
+    line-height: 27px;
 }
 
-h2{
-    font-size: 20px;
+.left{
+    display: flex;
+    flex-direction: column;
 }
 
-.farm{
-    width: 420px;
-}
-
-.text2{
+.fundador{
+    margin-top: 40px;
     width: 400px;
-    text-align: justify;
-    text-indent: 50px;
-    font-size: 15px;
+    opacity: 0.9;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.nos{
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+hr{
+    margin: auto;
+    width: 1200px;
+}
+
+.final{
+    margin-bottom: 40px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.links{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.inst{
+   text-decoration: none;
+   color: black;
+}
+
+.social{
+    text-align: center;
+}
+
+iframe{
+    width: 300px;
+    height: 90px;
 }

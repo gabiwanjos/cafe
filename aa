@@ -1,19 +1,28 @@
-<nav>
-        <ul class="menu">
-            <a href="#" class="cafe">
-                <li>Café em grão</li>
-            </a>
-            <a href="#" class="cafe">
-                <li>Café em pó</li>
-            </a>
-            <a href="#" class="cafe">
-                <li>Chocolate com grão</li>
-            </a>
-            <a href="#" class="cafe">
-                <li>Dips e cápsulas</li>
-            </a>
-            <a href="#" class="cafe">
-                <li>Grandes volumes</li>
-            </a>
-        </ul>
-    </nav>
+<div class="history">
+    <div>
+        <img src="image/fazendinha.jpeg" alt="" class="farm">
+    </div>
+    <div class="text2">
+        <h2>Campos Altos</h2>
+        <p>José começou sua jornada adquirindo um chapéu, botas e uma caminhonete, e em 2004 comprou um pequeno terreno que se tornou a Fazenda Serrinha. Seu objetivo desde o início era destacar Campos Altos e seus cafés para o mundo.</p>
+        <p>José enfrentou desafios, incluindo a pressão dos corretores para baixar os preços de seu café. No entanto, em 2014, ele construiu seu próprio moinho a seco, garantindo a qualidade e rastreabilidade do café. No ano seguinte, lançou o Café Campos Altos-Coffee Export no Brasil e Our Coffees na Califórnia, criando uma cadeia de abastecimento verticalmente integrada, assumindo todos os riscos e responsabilidades da importação/exportação.</p>
+        <p>Sua presença na Califórnia o expôs a inovações, como o processo de mel e fermentação controlada, elevando a qualidade de seus cafés para pontuações superiores a 90. A partir desse momento, José comprometeu-se a focar exclusivamente na produção de cafés especiais de alta qualidade.</p>
+    </div>
+</div>
+</div>
+
+<div class="title">
+    <h1>Nossa história</h1>
+</div>
+<div class="history">
+    <div class="text1">
+        <h2>José Maria de Oliveira</h2>
+        <p>José Maria vem de uma tradição de café com raízes familiares profundas. Sua infância foi marcada por lembranças felizes de sua família trabalhando em uma pequena fazenda de café de seu avô. No entanto, aos 7 anos, eles foram forçados a deixar sua terra natal devido a dificuldades financeiras e trabalharam em diversas fazendas de café na região.</p>
+        <p>Quando atingiu 17 anos, José Maria decidiu buscar uma vida melhor na cidade de Belo Horizonte. Ele começou como cobrador de passagens de ônibus e, posteriormente, trabalhou em uma farmácia, onde progrediu na carreira até se tornar um representante de vendas. Nessa função, ele aprendeu a importância da organização e compreendeu a necessidade de seguir processos.</p>
+        <p>No entanto, José nunca parou de pensar em sua terra natal, Campos Altos, e seu amor pelo café nunca desapareceu. Ele fez uma promessa a si mesmo de um dia possuir um terreno em Campos Altos para cultivar café. Eventualmente, ele mudou-se de casa e conheceu sua esposa, Ebe, cuja família também tinha uma longa história como colhedores de café, e compartilhavam o mesmo amor pelo café e pelas tradições familiares.</p>
+    </div>
+    <div >
+        <img src="image/José-Maria-de-Oliveira-fundador-do-Café-Campos-Altos_FOTO-Joselito-Cândido.jpg" alt="" class="jose">
+    </div>
+</div>
+    
