@@ -342,3 +342,64 @@ iframe{
     width: 300px;
     height: 90px;
 }
+
+.eu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 10px;
+}
+
+@media screen and (max-width: 768px) {
+
+    html{
+        height: 390vh;
+    }
+    
+    .container{
+        max-width: 768px;
+        margin: auto;
+    }
+    
+    .flex{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 70px;
+    } 
+    
+    header{
+        width: 100vw;
+        padding: 10px 3%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        transition: 0.5s;
+        z-index: 99;
+    }
+    
+    header.rolagem{
+        background-color:white;
+        padding: 5px 3%;
+    }
+    
+    header.rolagem a{
+        color: black;
+    
+    }
+    
+    header.rolagem .logo{
+        display: none;
+    }
+    
+    header.rolagem .black{
+        display: flex;
+    }
+    
+    .logo{
+        width: 200px;
+        height: 130px;
+    }
+    
+}
