@@ -10,7 +10,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Hepta Slab', serif;
+    font-family: 'Raleway';
 }
 
 html{
@@ -251,7 +251,8 @@ i{
 }
 
 .jose{
-    width: 300px;
+    width: 270px;
+
 }
 
 .title{
@@ -266,9 +267,27 @@ i{
     margin: auto;
     align-items: center;
     justify-content: center;
-    gap: 50px;
+    gap: 6px;
 }
 
 .text1{
     width: 500px;
+    text-align: justify;
+    text-indent: 50px;
+    font-size: 15px;
+}
+
+h2{
+    font-size: 20px;
+}
+
+.farm{
+    width: 420px;
+}
+
+.text2{
+    width: 400px;
+    text-align: justify;
+    text-indent: 50px;
+    font-size: 15px;
 }
